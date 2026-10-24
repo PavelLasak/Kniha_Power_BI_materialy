@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Roční cíle tržby prodavačů v Kč (KPI). Řádek = rok, sloupec = prodavač. Prázdný prvek = prodavač v daném roce ještě nepracoval. -->
+<KPI>
+  <KPI_Prodavaci>
+    <Rok>2022</Rok>
+    <P1>38000</P1>
+    <P2>39000</P2>
+    <P3>8000</P3>
+    <P4>20000</P4>
+    <P5/>
+    <P6/>
+  </KPI_Prodavaci>
+  <KPI_Prodavaci>
+    <Rok>2023</Rok>
+    <P1>46000</P1>
+    <P2>41000</P2>
+    <P3>7000</P3>
+    <P4>26000</P4>
+    <P5/>
+    <P6/>
+  </KPI_Prodavaci>
+  <KPI_Prodavaci>
+    <Rok>2024</Rok>
+    <P1>50000</P1>
+    <P2>58000</P2>
+    <P3>15000</P3>
+    <P4>54000</P4>
+    <P5>10000</P5>
+    <P6/>
+  </KPI_Prodavaci>
+  <KPI_Prodavaci>
+    <Rok>2025</Rok>
+    <P1>83000</P1>
+    <P2>48000</P2>
+    <P3>29000</P3>
+    <P4>57000</P4>
+    <P5>11000</P5>
+    <P6>18000</P6>
+  </KPI_Prodavaci>
+  <KPI_Prodavaci>
+    <Rok>2026</Rok>
+    <P1>81000</P1>
+    <P2>61000</P2>
+    <P3>28000</P3>
+    <P4>71000</P4>
+    <P5>17000</P5>
+    <P6>23000</P6>
+  </KPI_Prodavaci>
+</KPI>

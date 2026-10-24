@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ukázka složitější (vnořené) struktury XML: objednávky se zákazníkem, adresou a položkami.
+     Atributy (id, mena, jednotka) se v Power Query zobrazí jako sloupce Attribute:… -->
+<Objednavky>
+  <Objednavka id="F2001">
+    <DatumObjednavky>2026-09-14</DatumObjednavky>
+    <Stav>Zaplaceno</Stav>
+    <Zakaznik id="Z1">
+      <Jmeno>Jan</Jmeno>
+      <Prijmeni>Novák</Prijmeni>
+      <Email>jan.novak@email.cz</Email>
+      <Adresa>
+        <Ulice>Vinohradská 1520/12</Ulice>
+        <Mesto>Praha</Mesto>
+        <PSC>12000</PSC>
+        <Zeme>CZ</Zeme>
+      </Adresa>
+    </Zakaznik>
+    <Polozky>
+      <Polozka cislo="1">
+        <Vyrobek id="V13">
+          <Nazev>Excel pro začátečníky</Nazev>
+          <Kategorie>Knihy</Kategorie>
+          <Podkategorie>Odborné</Podkategorie>
+        </Vyrobek>
+        <Mnozstvi jednotka="ks">1</Mnozstvi>
+        <Cena mena="CZK">349</Cena>
+      </Polozka>
+      <Polozka cislo="2">
+        <Vyrobek id="V1">
+          <Nazev>Bloček barevný</Nazev>
+          <Kategorie>Bločky</Kategorie>
+          <Podkategorie>Poznámkové bloky</Podkategorie>
+        </Vyrobek>
+        <Mnozstvi jednotka="ks">5</Mnozstvi>
+        <Cena mena="CZK">10</Cena>
+      </Polozka>
+    </Polozky>
+    <Celkem mena="CZK">399</Celkem>
+  </Objednavka>
+  <Objednavka id="F2002">
+    <DatumObjednavky>2026-09-15</DatumObjednavky>
+    <Stav>Zaplaceno</Stav>
+    <Zakaznik id="Z4">
+      <Jmeno>Petra</Jmeno>
+      <Prijmeni>Svobodová</Prijmeni>
+      <Email>petra.svobodova@email.cz</Email>
+      <Adresa>
+        <Ulice>Botanická 68a</Ulice>
+        <Mesto>Brno</Mesto>
+        <PSC>60200</PSC>
+        <Zeme>CZ</Zeme>
+      </Adresa>
+    </Zakaznik>
+    <Polozky>
+      <Polozka cislo="1">
+        <Vyrobek id="V5">
+          <Nazev>Pastelky sada</Nazev>
+          <Kategorie>Psaní</Kategorie>
+          <Podkategorie>Pastelky a fixy</Podkategorie>
+        </Vyrobek>
+        <Mnozstvi jednotka="ks">2</Mnozstvi>
+        <Cena mena="CZK">100</Cena>
+      </Polozka>
+      <Polozka cislo="2">
+        <Vyrobek id="V7">
+          <Nazev>Sešit A4 linkovaný</Nazev>
+          <Kategorie>Papíry</Kategorie>
+          <Podkategorie>Sešity</Podkategorie>
+        </Vyrobek>
+        <Mnozstvi jednotka="ks">10</Mnozstvi>
+        <Cena mena="CZK">30</Cena>
+      </Polozka>
+      <Polozka cislo="3">
+        <Vyrobek id="V22">
+          <Nazev>Plnicí pero</Nazev>
+          <Kategorie>Psaní</Kategorie>
+          <Podkategorie>Pera</Podkategorie>
+        </Vyrobek>
+        <Mnozstvi jednotka="ks">1</Mnozstvi>
+        <Cena mena="CZK">250</Cena>
+      </Polozka>
+    </Polozky>
+    <Celkem mena="CZK">750</Celkem>
+  </Objednavka>
+  <Objednavka id="F2003">
+    <DatumObjednavky>2026-09-17</DatumObjednavky>
+    <Stav>Nezaplaceno</Stav>
+    <Zakaznik id="Z5">
+      <Jmeno>Marie</Jmeno>
+      <Prijmeni>Hrdá</Prijmeni>
+      <Email>marie.hrda@email.cz</Email>
+      <Adresa>
+        <Ulice>Nádražní 112</Ulice>
+        <Mesto>Ostrava</Mesto>
+        <PSC>70200</PSC>
+        <Zeme>CZ</Zeme>
+      </Adresa>
+    </Zakaznik>
+    <Polozky>
+      <Polozka cislo="1">
+        <Vyrobek id="V20">
+          <Nazev>Power Query v praxi</Nazev>
+          <Kategorie>Knihy</Kategorie>
+          <Podkategorie>Odborné</Podkategorie>
+        </Vyrobek>
+        <Mnozstvi jednotka="ks">1</Mnozstvi>
+        <Cena mena="CZK">399</Cena>
+      </Polozka>
+    </Polozky>
+    <Celkem mena="CZK">399</Celkem>
+  </Objednavka>
+</Objednavky>

@@ -1,0 +1,38 @@
+{
+  "OrderID": 1001,
+  "OrderDate": "2025-09-18",
+  "Customer": {
+    "CustomerID": 501,
+    "Name": "Jan Novák",
+    "Email": "jan.novak@example.com",
+    "Address": {
+      "Street": "Botanická 68a",
+      "City": "Brno",
+      "ZipCode": "60200",
+      "Country": "CZ"
+    }
+  },
+  "Items": [
+    {
+      "ItemID": 1,
+      "Quantity": 2,
+      "Price": 1500,
+      "Product": {
+        "ProductID": 301,
+        "Name": "Notebook Lenovo",
+        "Category": "Elektronika"
+      }
+    },
+    {
+      "ItemID": 2,
+      "Quantity": 3,
+      "Price": 250,
+      "Product": {
+        "ProductID": 302,
+        "Name": "Bezdrátová myš",
+        "Category": "Příslušenství"
+      }
+    }
+  ],
+  "TotalAmount": 3750
+}
